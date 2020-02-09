@@ -10,14 +10,14 @@ z = -2324234
 # Float
 
 v = 35e3
-w = 12E4
+w = 12e4
 x = 1.10
 y = 1.0
 z = -35.59
 
 # complex
 
-x = 3+5j
+x = 3 + 5j
 y = 5j
 z = -5j
 
@@ -47,9 +47,9 @@ a = """consectetur adipiscing elit,
 sed do eiusmod tempor incididunt
 ut labore et dolore magna aliqua."""
 
-a = '''consectetur adipiscing elit,
+a = """consectetur adipiscing elit,
 sed do eiusmod tempor incididunt
-ut labore et dolore magna aliqua.'''
+ut labore et dolore magna aliqua."""
 
 text = " this is, mytext "
 # index of string text[1]
@@ -90,6 +90,7 @@ text = " this is, mytext "
 # str()
 # atau
 # text.format(number) // syarat define {} di dalam string , dalam parameter dapat di sisipkan angka untuk penjelasan {2}
+# {:.2f}
 
 # Escape Caracter
 # "Test \"Test\" test"
