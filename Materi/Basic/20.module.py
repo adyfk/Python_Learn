@@ -1,4 +1,4 @@
-from Module.mymodule import greeting
+from Helper.mymodule import greeting
 
 greeting("Adi")
 
