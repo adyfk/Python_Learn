@@ -4,40 +4,42 @@ thislist = ["apple", "banana", "cherry"]
 # sama seperti dengan string
 
 
-thislist[-1]
+# thislist[-1]
 # untuk mencari item paling terakhir
 
-thislist[2:5]
+# thislist[2:5]
 # untuk mencari dari index 2 hingga index sebeluh 5
 
-thislist[:4]
+# thislist[:4]
 # untuk mencari index sebelum 4
 
-"apple" in thislist
+# print("apple" not in thislist)
 # check item berada di dalam array
 
-thislist.append("melon")
+# thislist.append("melon")
+# print(thislist)
 # menambahkan item pada array
 
-thislist.index("coconut", 1)
-# menyisipkan item pada index tertentu
+# thislist.insert()
+# thislist.insert(1,"coconut")
+# # menyisipkan item pada index tertentu
 
-thislist.remove("apple")
+# thislist.remove("apple")
 # mengahpus item dari array
 
-thislist.pop()
+# thislist.pop()
 # mengapus 1 item array dari belakang
 
-del thislist[0]
+# del thislist[0]
 # menghapus item array pada index tertentu
 
-thislist.clear()
+# thislist.clear()
 # mengahapus semua item array
 
-thislist.copy()
+# thislist.copy()
 # untuk clone array
 # atau dengan cara
-list(thislist)
+# list(thislist)
 
-thislist.sort()
+# thislist.sort()
 # untuk sorting(mengurutkan) item array

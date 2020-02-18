@@ -51,7 +51,7 @@ a = """consectetur adipiscing elit,
 sed do eiusmod tempor incididunt
 ut labore et dolore magna aliqua."""
 
-text = " this is, mytext "
+text = "         this is, mytext "
 # index of string text[1]
 
 # slice text[2:4]
@@ -75,15 +75,19 @@ text = " this is, mytext "
 # text.replace("i","u")
 # mengganti sebuah huruf / kata
 
-# text.split(",")
+# print(text.split(","))
 # membagi string manjadi array berdasar parameter yang di tentukan
+# text2 = text.split(",")
 
-# text.join(",")
+# print("000000".join(text2))
 
 # "this is" in text
 # "this is" not in text
 #  check isi dalam string
 
+# nilai  = 100
+
+# print("Nilai ku adalah " + str(nilai))
 # " " + " " + text
 # Menggabungkan String (!Harus string)
 # solusi convert to string
@@ -102,15 +106,15 @@ text = " this is, mytext "
 
 # text.center(20, "O")
 # Untuk memberi space kiri dan kanan text
-
-# text.count("apple", 10, 24)
+# print(text.find("this"))
+# text.count("apple di sawah", 10, 24)
 # Menghitung banyak text di antara index
 
 
 # ========================================================================
 # Bolean varible
 
-# True
+# False
 bool(False)
 bool(None)
 bool(0)

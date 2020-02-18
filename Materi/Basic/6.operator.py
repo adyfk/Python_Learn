@@ -20,6 +20,10 @@
 # //=	|   x //= 3	|   x = x // 3
 # **=	|   x **= 3	|   x = x ** 3
 
+# x = 20
+# x = x + 2
+# x += 2 
+
 # Comparison
 # ==	Equal	                    x == y
 # !=	Not equal	                x != y
@@ -28,6 +32,9 @@
 # >=	Greater than or equal to	x >= y
 # <=	Less than or equal to	    x <= y
 
+# print(True not True)
+# print(not False)
+# print(not True)
 # logic
 # and
 # or
